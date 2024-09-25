@@ -1,0 +1,18 @@
+.appWrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.button {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    border-radius: 50%;
+    background-color:#007bff;
+    width: 100px;
+    height: 100px;
+    border: none;
+    color: white;
+    font-size: large;
+}

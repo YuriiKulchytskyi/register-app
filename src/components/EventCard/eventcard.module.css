@@ -1,0 +1,51 @@
+.eventWrapper {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    transition: transform 0.2s;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.eventWrapper:hover {
+    transform: scale(1.02);
+}
+
+.eventTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 8px;
+    color: #333;
+}
+
+.eventDescription {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.buttonWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
